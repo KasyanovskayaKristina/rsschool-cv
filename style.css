@@ -1,7 +1,547 @@
+
 body {
-    margin: 0 auto;
-    max-width: 1000px;
-    font-family: "Montserrat", sans-serif;
-    background-color: #e6e6e6;
-  }
-  
+  margin: 0 auto;
+  max-width: 1000px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e6e6e6;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  padding: 0;
+}
+
+.headerTextContainer {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+}
+
+.headerLink {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+   list-style-type: none;
+   gap: 5px;
+}
+
+.link {
+   
+   gap: 10px;
+}
+.headerName {
+  padding: 40px;
+}
+
+.headerName h1 {
+  color: #fff;
+}
+
+.headerName h2 {
+  color: #e0d8d0;
+}
+
+.headerContact {
+  background-color: #e0d8d0;
+  padding: 40px 40px 20px;
+  display: flex;
+}
+
+.headerContactBlock {
+  margin-right: 70px;
+}
+
+.headerContactBlock div {
+  margin-bottom: 20px;
+}
+
+.headerContactBlock h3 {
+  margin: 0 0 5px 0;
+}
+
+.headerContactBlock div p {
+  margin: 0px;
+}
+
+.headerPhotoContainer {
+  width: 40%;
+}
+
+.headerPhotoContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  width: 100%;
+}
+
+.sectionExperience {
+  width: 60%;
+  padding: 40px;
+}
+
+.sectionExperienceBlock {
+  border-bottom: 3px dotted black;
+  padding-bottom: 20px;
+}
+
+.sectionJobName {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.sectionAbout {
+  width: 36.8%;
+  padding: 40px;
+  background-color: black;
+  color: #e0d8d0;
+}
+
+.sectionAboutText {
+  line-height: 20px;
+}
+
+.sectionEducationBlock {
+  border-bottom: 3px dotted #e6e6e6;
+  padding-bottom: 20px;
+}
+
+.sectionEducation {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.sectionProjectBlock {
+  border-bottom: 3px dotted #e6e6e6;
+  padding-bottom: 20px;
+}
+
+.sectionProject {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none !important;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 45px;
+  padding-top: 20px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer svg {
+  height: 20px;
+}
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e6e6e6;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  padding: 0;
+}
+
+.headerTextContainer {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headerName {
+  padding: 40px;
+}
+
+.headerName h1 {
+  color: #fff;
+}
+
+.headerName h2 {
+  color: #e0d8d0;
+}
+
+.headerContact {
+  background-color: #e0d8d0;
+  padding: 40px 40px 20px;
+  display: flex;
+}
+
+.headerContactBlock {
+  margin-right: 70px;
+}
+
+.headerContactBlock div {
+  margin-bottom: 20px;
+}
+
+.headerContactBlock h3 {
+  margin: 0 0 5px 0;
+}
+
+.headerContactBlock div p {
+  margin: 0px;
+}
+
+.headerPhotoContainer {
+  width: 40%;
+}
+
+.headerPhotoContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  width: 100%;
+}
+
+.sectionExperience {
+  width: 60%;
+  padding: 40px;
+}
+
+.sectionExperienceBlock {
+  border-bottom: 3px dotted black;
+  padding-bottom: 20px;
+}
+
+.sectionJobName {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.sectionAbout {
+  width: 36.8%;
+  padding: 40px;
+  background-color: black;
+  color: #e0d8d0;
+}
+
+.sectionAboutText {
+  line-height: 20px;
+}
+
+.sectionEducationBlock {
+  border-bottom: 3px dotted #e6e6e6;
+  padding-bottom: 20px;
+}
+
+.sectionEducation {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.sectionProjectBlock {
+  border-bottom: 3px dotted #e6e6e6;
+  padding-bottom: 20px;
+}
+
+.sectionProject {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none !important;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 45px;
+  padding-top: 20px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer svg {
+  height: 20px;
+}
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e6e6e6;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  padding: 0;
+}
+
+.headerTextContainer {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headerName {
+  padding: 40px;
+}
+
+.headerName h1 {
+  color: #fff;
+}
+
+.headerName h2 {
+  color: #e0d8d0;
+}
+
+.headerContact {
+  background-color: #e0d8d0;
+  padding: 40px 40px 20px;
+  display: flex;
+}
+
+.headerContactBlock {
+  margin-right: 70px;
+}
+
+.headerContactBlock div {
+  margin-bottom: 20px;
+}
+
+.headerContactBlock h3 {
+  margin: 0 0 5px 0;
+}
+
+.headerContactBlock div p {
+  margin: 0px;
+}
+
+.headerPhotoContainer {
+  width: 40%;
+}
+
+.headerPhotoContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  width: 100%;
+}
+
+.sectionExperience {
+  width: 60%;
+  padding: 40px;
+}
+
+.sectionExperienceBlock {
+  border-bottom: 3px dotted black;
+  padding-bottom: 20px;
+}
+
+.sectionJobName {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.sectionAbout {
+  width: 36.8%;
+  padding: 40px;
+  background-color: black;
+  color: #e0d8d0;
+}
+
+.sectionAboutText {
+  line-height: 20px;
+}
+
+.sectionEducationBlock {
+  border-bottom: 3px dotted #e6e6e6;
+  padding-bottom: 20px;
+}
+
+.sectionEducation {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.sectionProjectBlock {
+  border-bottom: 3px dotted #e6e6e6;
+  padding-bottom: 20px;
+}
+
+.sectionProject {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none !important;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 45px;
+  padding-top: 20px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer svg {
+  height: 20px;
+}
+
+
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e6e6e6;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  padding: 0;
+}
+
+.headerTextContainer {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headerName {
+  padding: 40px;
+}
+
+.headerName h1 {
+  color: #fff;
+}
+
+.headerName h2 {
+  color: #e0d8d0;
+}
+
+.headerContact {
+  background-color: #e0d8d0;
+  padding: 40px 40px 20px;
+  display: flex;
+}
+
+.headerContactBlock {
+  margin-right: 70px;
+}
+
+.headerContactBlock div {
+  margin-bottom: 20px;
+}
+
+.headerContactBlock h3 {
+  margin: 0 0 5px 0;
+}
+
+.headerContactBlock div p {
+  margin: 0px;
+}
+
+.headerPhotoContainer {
+  width: 40%;
+}
+
+.headerPhotoContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  width: 100%;
+}
+
+.sectionExperience {
+  width: 60%;
+  padding: 40px;
+}
+
+.sectionExperienceBlock {
+  border-bottom: 3px dotted black;
+  padding-bottom: 20px;
+}
+
+.sectionJobName {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.sectionAbout {
+  width: 36.8%;
+  padding: 40px;
+  background-color: black;
+  color: #e0d8d0;
+}
+
+.sectionAboutText {
+  line-height: 20px;
+}
+
+.sectionEducationBlock {
+  border-bottom: 3px dotted #e6e6e6;
+  padding-bottom: 20px;
+}
+
+.sectionEducation {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.sectionProjectBlock {
+  border-bottom: 3px dotted #e6e6e6;
+  padding-bottom: 20px;
+}
+
+.sectionProject {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none !important;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 45px;
+  padding-top: 20px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.footer svg {
+  height: 20px;
+}
