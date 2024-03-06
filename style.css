@@ -1,547 +1,152 @@
-
 body {
-  margin: 0 auto;
-  max-width: 1000px;
-  font-family: "Montserrat", sans-serif;
-  background-color: #e6e6e6;
-}
-
-.headerContainer {
-  display: flex;
-  width: 100%;
-  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
   padding: 0;
 }
 
-.headerTextContainer {
-  display: flex;
-  width: 60%;
-  flex-direction: column;
-  justify-content: space-between;
+header {
+  background-color: #adc1c9;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
-.navigation {
-  display: flex;
+.nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.headerLink {
+.nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main-container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.left,
+.right {
+  flex-basis: 45%;
+}
+
+.left {
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.right {
+  padding-left: 20px;
+  padding-top: 100px;
+  padding-right: 10px;
+  background-color: #d4d5d5;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
   text-decoration: none;
-   list-style-type: none;
-   gap: 5px;
+  transition: color 0.3s;
+
 }
 
-.link {
-   
-   gap: 10px;
-}
-.headerName {
-  padding: 40px;
+a:hover {
+  color: #0056b3;
+
 }
 
-.headerName h1 {
-  color: #fff;
+.position {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
 }
 
-.headerName h2 {
-  color: #e0d8d0;
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.headerContact {
-  background-color: #e0d8d0;
-  padding: 40px 40px 20px;
-  display: flex;
+.section-title+div {
+  margin-bottom: 30px;
 }
 
-.headerContactBlock {
-  margin-right: 70px;
-}
-
-.headerContactBlock div {
-  margin-bottom: 20px;
-}
-
-.headerContactBlock h3 {
-  margin: 0 0 5px 0;
-}
-
-.headerContactBlock div p {
-  margin: 0px;
-}
-
-.headerPhotoContainer {
-  width: 40%;
-}
-
-.headerPhotoContainer img {
-  height: 100%;
-  width: 100%;
-}
-
-section {
-  display: flex;
-  width: 100%;
-}
-
-.sectionExperience {
-  width: 60%;
-  padding: 40px;
-}
-
-.sectionExperienceBlock {
-  border-bottom: 3px dotted black;
-  padding-bottom: 20px;
-}
-
-.sectionJobName {
+.section-about-text {
   font-style: italic;
-  margin-bottom: 5px;
 }
 
-.sectionAbout {
-  width: 36.8%;
-  padding: 40px;
-  background-color: black;
-  color: #e0d8d0;
-}
-
-.sectionAboutText {
-  line-height: 20px;
-}
-
-.sectionEducationBlock {
-  border-bottom: 3px dotted #e6e6e6;
-  padding-bottom: 20px;
-}
-
-.sectionEducation {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-.sectionProjectBlock {
-  border-bottom: 3px dotted #e6e6e6;
-  padding-bottom: 20px;
-}
-
-.sectionProject {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-.link {
-  text-decoration: none !important;
-  color: white;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 30px 45px;
-  padding-top: 20px;
-  border-top: 1px solid #e6e6e6;
-}
-
-.footer svg {
-  height: 20px;
-}
-body {
-  margin: 0 auto;
-  max-width: 1000px;
-  font-family: "Montserrat", sans-serif;
-  background-color: #e6e6e6;
-}
-
-.headerContainer {
-  display: flex;
-  width: 100%;
-  background-color: black;
+.skills ul,
+.languages ul {
+  list-style-type: none;
   padding: 0;
 }
 
-.headerTextContainer {
-  display: flex;
-  width: 60%;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.headerName {
-  padding: 40px;
-}
-
-.headerName h1 {
-  color: #fff;
-}
-
-.headerName h2 {
-  color: #e0d8d0;
-}
-
-.headerContact {
-  background-color: #e0d8d0;
-  padding: 40px 40px 20px;
-  display: flex;
-}
-
-.headerContactBlock {
-  margin-right: 70px;
-}
-
-.headerContactBlock div {
-  margin-bottom: 20px;
-}
-
-.headerContactBlock h3 {
-  margin: 0 0 5px 0;
-}
-
-.headerContactBlock div p {
-  margin: 0px;
-}
-
-.headerPhotoContainer {
-  width: 40%;
-}
-
-.headerPhotoContainer img {
-  height: 100%;
-  width: 100%;
-}
-
-section {
-  display: flex;
-  width: 100%;
-}
-
-.sectionExperience {
-  width: 60%;
-  padding: 40px;
-}
-
-.sectionExperienceBlock {
-  border-bottom: 3px dotted black;
-  padding-bottom: 20px;
-}
-
-.sectionJobName {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-.sectionAbout {
-  width: 36.8%;
-  padding: 40px;
-  background-color: black;
-  color: #e0d8d0;
-}
-
-.sectionAboutText {
-  line-height: 20px;
-}
-
-.sectionEducationBlock {
-  border-bottom: 3px dotted #e6e6e6;
-  padding-bottom: 20px;
-}
-
-.sectionEducation {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-.sectionProjectBlock {
-  border-bottom: 3px dotted #e6e6e6;
-  padding-bottom: 20px;
-}
-
-.sectionProject {
-  font-style: italic;
+.skills ul li,
+.languages ul li {
   margin-bottom: 5px;
 }
 
 .link {
-  text-decoration: none !important;
-  color: white;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 30px 45px;
-  padding-top: 20px;
-  border-top: 1px solid #e6e6e6;
-}
-
-.footer svg {
-  height: 20px;
-}
-body {
-  margin: 0 auto;
-  max-width: 1000px;
-  font-family: "Montserrat", sans-serif;
-  background-color: #e6e6e6;
-}
-
-.headerContainer {
-  display: flex;
-  width: 100%;
-  background-color: black;
-  padding: 0;
-}
-
-.headerTextContainer {
-  display: flex;
-  width: 60%;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.headerName {
-  padding: 40px;
-}
-
-.headerName h1 {
   color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.headerName h2 {
-  color: #e0d8d0;
-}
-
-.headerContact {
-  background-color: #e0d8d0;
-  padding: 40px 40px 20px;
-  display: flex;
-}
-
-.headerContactBlock {
-  margin-right: 70px;
-}
-
-.headerContactBlock div {
-  margin-bottom: 20px;
-}
-
-.headerContactBlock h3 {
-  margin: 0 0 5px 0;
-}
-
-.headerContactBlock div p {
-  margin: 0px;
-}
-
-.headerPhotoContainer {
-  width: 40%;
-}
-
-.headerPhotoContainer img {
-  height: 100%;
-  width: 100%;
-}
-
-section {
-  display: flex;
-  width: 100%;
-}
-
-.sectionExperience {
-  width: 60%;
-  padding: 40px;
-}
-
-.sectionExperienceBlock {
-  border-bottom: 3px dotted black;
-  padding-bottom: 20px;
-}
-
-.sectionJobName {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-.sectionAbout {
-  width: 36.8%;
-  padding: 40px;
-  background-color: black;
-  color: #e0d8d0;
-}
-
-.sectionAboutText {
-  line-height: 20px;
-}
-
-.sectionEducationBlock {
-  border-bottom: 3px dotted #e6e6e6;
-  padding-bottom: 20px;
-}
-
-.sectionEducation {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-.sectionProjectBlock {
-  border-bottom: 3px dotted #e6e6e6;
-  padding-bottom: 20px;
-}
-
-.sectionProject {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-.link {
-  text-decoration: none !important;
-  color: white;
+.link:hover {
+  text-decoration: underline;
 }
 
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 30px 45px;
-  padding-top: 20px;
-  border-top: 1px solid #e6e6e6;
-}
-
-.footer svg {
-  height: 20px;
-}
-
-
-body {
-  margin: 0 auto;
-  max-width: 1000px;
-  font-family: "Montserrat", sans-serif;
-  background-color: #e6e6e6;
-}
-
-.headerContainer {
-  display: flex;
-  width: 100%;
-  background-color: black;
-  padding: 0;
-}
-
-.headerTextContainer {
-  display: flex;
-  width: 60%;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.headerName {
-  padding: 40px;
-}
-
-.headerName h1 {
+  background-color: #adc1c9;
   color: #fff;
+  text-align: center;
+  padding: 20px 0;
 }
 
-.headerName h2 {
-  color: #e0d8d0;
+.footer img {
+  margin-top: 10px;
 }
 
-.headerContact {
-  background-color: #e0d8d0;
-  padding: 40px 40px 20px;
-  display: flex;
+@media screen and (max-width: 1024px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    flex-basis: auto;
+    padding: 20px;
+  }
 }
 
-.headerContactBlock {
-  margin-right: 70px;
-}
+@media screen and (max-width: 768px) {
+  .nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
 
-.headerContactBlock div {
-  margin-bottom: 20px;
-}
+  .main-container {
+    padding: 10px;
+  }
 
-.headerContactBlock h3 {
-  margin: 0 0 5px 0;
-}
+  .left,
+  .right {
+    flex-basis: auto;
+    padding: 10px;
+  }
 
-.headerContactBlock div p {
-  margin: 0px;
-}
+  .right {
+    padding-top: 20px;
+  }
 
-.headerPhotoContainer {
-  width: 40%;
-}
-
-.headerPhotoContainer img {
-  height: 100%;
-  width: 100%;
-}
-
-section {
-  display: flex;
-  width: 100%;
-}
-
-.sectionExperience {
-  width: 60%;
-  padding: 40px;
-}
-
-.sectionExperienceBlock {
-  border-bottom: 3px dotted black;
-  padding-bottom: 20px;
-}
-
-.sectionJobName {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-.sectionAbout {
-  width: 36.8%;
-  padding: 40px;
-  background-color: black;
-  color: #e0d8d0;
-}
-
-.sectionAboutText {
-  line-height: 20px;
-}
-
-.sectionEducationBlock {
-  border-bottom: 3px dotted #e6e6e6;
-  padding-bottom: 20px;
-}
-
-.sectionEducation {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-.sectionProjectBlock {
-  border-bottom: 3px dotted #e6e6e6;
-  padding-bottom: 20px;
-}
-
-.sectionProject {
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
-.link {
-  text-decoration: none !important;
-  color: white;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 30px 45px;
-  padding-top: 20px;
-  border-top: 1px solid #e6e6e6;
-}
-
-.footer svg {
-  height: 20px;
+  .footer img {
+    margin-top: 5px;
+  }
 }
